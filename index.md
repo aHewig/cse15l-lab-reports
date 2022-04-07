@@ -7,8 +7,8 @@ on youtube ![Image](https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpw
 > 1) youtube channel **lowkey**
 ---
 
-so don't be a 'fool'
-'''
+so don't be a `fool`
+```
 # subscribe to me
 to be cool
-'''
+```
