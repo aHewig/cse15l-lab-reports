@@ -3,8 +3,8 @@
 on youtube ![Image](https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj)
 
 > Because it is
-> * a fire
-> 1) youtube channel **lowkey**
+> * fire
+> 1) kind of **lit** 
 ---
 
 so don't be a `fool`
