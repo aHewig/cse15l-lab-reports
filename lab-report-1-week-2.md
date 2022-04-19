@@ -50,9 +50,17 @@
 
 ---
 ## **5. Setting an SSH Key**
+- Setting an SSH key will allow us to log onto the cs15L server and using scp without having to input our password every time.
+
+![Image](finalSSH.png)
+
+- If on Windows, follow the commands above with your correct filepaths and username 
 
 ---
 ## **6. Optimizing Remote Running**
+- To quickly copy a file over to the remote server, use the command `scp WhereAmI.java <your username>@ieng6.ucsd.edu:~; javac WhereAmI.java; java WhereAmI` 
+- You can check that the file is in the desired location by using the ls command:
+
+![Image](location.png)
 
 ---
-I wasn't able to get parts five and six finished yet, but I plan to have them finished by tomorrow 
