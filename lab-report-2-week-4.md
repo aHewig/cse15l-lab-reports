@@ -25,6 +25,7 @@ The test file that caused this change to be necessary was [Test 4](https://githu
 ---
 
 ## Code Change 2
+
 ![Image](markdownUpdate2.png)
 
 The test file that caused this change to be necessary was [Test 3](https://github.com/aHewig/markdown-parser/blob/main/test3.md)
