@@ -20,8 +20,10 @@ The test file that caused this change to be necessary was [Test 4](https://githu
         at MarkdownParse.getLinks(MarkdownParse.java:19)
         at MarkdownParse.main(MarkdownParse.java:44)`
 
+
 - This change was made in order to adjust for files that have no links, which I defined as files that have no brackets or parentheses. Before, if there was a file with no brackets or parentheses, the program would produce an IndexOutOfBoundsException because the success of the program was predicated on being able to find the parentheses to find a string, with no option for that not to be the case, so when the indexOf methods returned -1, those indices were of the bounds of the array. This change is very simple in that it's just an if statement, and if both open and closed parentheses and brackets are found, the program continues as before, but if they are not all found, then it will go to the else statement and add the string `"A link was not found in this file."` to the toReturn ArrayList, which will then be printed in the main method.
 ---
+
 ## Code Change 2
 ![Image](markdownUpdate2.png)
 
