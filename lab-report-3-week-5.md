@@ -26,12 +26,12 @@ I edited my config file using VSCode, it was located in the .ssh directory of my
 
 ## Part 2: Setup Github Access from ieng6
 
-**Location of my public key:**
-![Image](publicKey.png)
+**Location of my public and keys:**
+![Image]()
 
-**Location of my private key:**
-![Image](localKey.png)
 
+
+The link to my commit that I made on the server [here](https://github.com/aHewig/Report-3-Examples/commit/e22dc9b72623ed625f86723e4aae699db034acf8)
 
 
 
