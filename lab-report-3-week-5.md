@@ -8,26 +8,30 @@ I edited my config file using VSCode, it was located in the .ssh directory of my
 
 
 **The location of my file:**
-![image](config2.png)
+![Image](config2.png)
 
 ---
 
 **Logging in using my alias:**
-![image](config.png)
+![Image](config.png)
 
 ---
 
 **Using scp to copy over a file I made called toSCP to the server, using just my alias:**
-![image](SCP1.png)
+![Image](SCP1.png)
 
-![image](SCP2.png)
+![Image](SCP2.png)
 
 ---
 
 ## Part 2: Setup Github Access from ieng6
 
 **Location of my public key:**
-![image](publicKey.png)
+![Image](publicKey.png)
+
+**Location of my private key:**
+![Image](localKey.png)
+
 
 
 
@@ -37,14 +41,17 @@ I edited my config file using VSCode, it was located in the .ssh directory of my
 ## Part 3: Copy whole directories with scp -r
 
 **Copying my entire directory including the .git files:**
-![image](wholeCopy1.png)
+![Image](wholeCopy1.png)
 
-![image](wholeCopy2.png)
+![Image](wholeCopy2.png)
+
+**Copying over the directory without the .git files:**
+![Image](copy1.png)
 
 ---
 
 **Compiling and running my tester on the ssh server:**
-![image](runningTest.png)
+![Image](runningTest.png)
 
 ---
 
