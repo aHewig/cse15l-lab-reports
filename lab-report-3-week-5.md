@@ -59,3 +59,7 @@ The link to my commit that I made on the server [here](https://github.com/aHewig
 
 **Copying my entire directory and running the tests on one line:**
 
+![Image](lastScreenshot.png)
+
+I had to specify the version of java on the command line to be run on the server 
+because the tests kept failing initially.
