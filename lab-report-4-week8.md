@@ -34,4 +34,6 @@ in between those two backticks, and if so moving current index to the next open 
 To fix this, we could make it so closeParen is the lastIndexOf(")", openParen) before the next index of ("[").
 
 ### Snippet 3:
-- 
+- To fix the output of snippet 3 would require markdown-parser to recognize line breaks where if 
+they appear between an open and closed parentheses or bracket, that would invalidate the link and 
+cause currentIndex to move to the next open bracket.
