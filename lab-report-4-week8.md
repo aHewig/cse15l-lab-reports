@@ -7,6 +7,7 @@
 ## Tests for The Week 7 Implementation:
 ![Image](theirTests.png)
 
+- Same tests as were used for our implementation
 
 ## Test Results for Our Implementation:
 ![Image](myFail.png)
@@ -30,8 +31,10 @@ to the index of the next backtick + 1, and then check if their was an open paren
 in between those two backticks, and if so moving current index to the next open bracket. 
 
 ### Snippet 2:
-- Our implementation failed the second test because of the way it made closeParen the index of ")" in the while loop. 
-To fix this, we could make it so closeParen is the lastIndexOf(")", openParen) before the next index of ("[").
+- Our implementation failed the second test because of the way it made closeParen the first index of 
+")" found in the while loop. To fix this, we could use a loop where closeParen is the indexOf(")", 
+currentIndex) with current index updating to the most recently found ")" as long as it was less than 
+the next index of "[".
 
 ### Snippet 3:
 - To fix the output of snippet 3 would require markdown-parser to recognize line breaks where if 
