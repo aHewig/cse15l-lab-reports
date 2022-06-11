@@ -22,3 +22,5 @@ to be cool
 [Lab Report 3](lab-report-3-week-5.md)
 
 [Lab Report 4](lab-report-4-week8.md)
+
+[Reb Report 5](lab-report-5-week-10.md)
